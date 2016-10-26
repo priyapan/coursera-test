@@ -1,4 +1,4 @@
-h1{
+ h1{
 	font-style: bold;
 	color: red;
 	text-align: center;
@@ -6,135 +6,57 @@ h1{
 
 @media (min-width: 992px){
 .outerclass{
-	background-color: grey;
-	width: 30%;
-	border:2px solid black;
-	margin: 2px;
-	padding: 10px;
-	float: left;
-	height: 10%;
-	position: relative;
-}
+	width: 31%;
+	}
 
 .outerclass3{
-	background-color: grey;
-	width: 30%;
-	border:2px solid black;
-	margin: 2px;
-	padding: 10px;
-	float: left;
-	height: 10%;
-	position: relative;
+	width: 31%;
+	}
+
 }
-
-.sideclass{
-	float: right;
-	border: 1px solid black;
-	position: absolute;
-	top:0;
-	right: 0;
-	margin-bottom: 5px;
-	background-color: pink;
-}
-
-.textclass{
-	margin-top: 10px;
-}
-
-
-.beefclass{
-	background-color: red;
-}
-
-.sushiclass{
-background-color: yellow;
-}
-}
-
-
-
-
-
-
 
 @media (min-width: 768px) and (max-width: 991px){
 .outerclass{
-	background-color: grey;
-	width: 45%;
-	border:2px solid black;
-	margin: 2px;
-	padding: 10px;
-	float: left;
-	height: 10%;
-	position: relative;
-}
+		width: 45%;
+	}
 
 .outerclass3{
-	background-color: grey;
-	width: 94%;
-	border:2px solid black;
-	margin: 2px;
-	padding: 10px;
-	float: left;
-	height: 10%;
-	position: relative;
+	width: 92%;
 }
 
-.sideclass{
-	float: right;
-	border: 1px solid black;
-	position: absolute;
-	top:0;
-	right: 0;
-	margin-bottom: 5px;
-	background-color: pink;
 }
-
-.textclass{
-	margin-top: 10px;
-}
-
-
-.beefclass{
-	background-color: red;
-}
-
-.sushiclass{
-background-color: yellow;
-}
-}
-
-
-
-
-
 
 @media (max-width: 767px){
 .outerclass{
-	background-color: grey;
+		width: 94%;
+	}
+.outerclass3{	
 	width: 94%;
+	}
+}
+
+.outerclass{
+	background-color: grey;
 	border:2px solid black;
-	margin: 2px;
-	padding: 10px;
-	float: left;
-	height: 10%;
+	margin: 1%;
+		float: left;
+	height: 20%;
 	position: relative;
 }
 
 .outerclass3{
 	background-color: grey;
-	width: 94%;
 	border:2px solid black;
-	margin: 2px;
-	padding: 10px;
+	margin: 1%;
 	float: left;
-	height: 10%;
+	height: 20%;
 	position: relative;
 }
 
 .sideclass{
 	float: right;
 	border: 1px solid black;
+	padding:4px;
 	position: absolute;
 	top:0;
 	right: 0;
@@ -143,7 +65,7 @@ background-color: yellow;
 }
 
 .textclass{
-	margin-top: 10px;
+	margin-top: 28px;
 }
 
 
@@ -155,3 +77,4 @@ background-color: yellow;
 background-color: yellow;
 }
 }
+
