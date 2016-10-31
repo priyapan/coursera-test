@@ -1,0 +1,82 @@
+h1{
+	color: red;
+	text-align: center;
+}
+
+
+@media(min-width:992px){
+	.outerdiv{
+	border: 2px solid green;
+	padding: 2px;
+	margin: 2px;
+width: 30%;
+float: left;
+background-color: pink;
+
+}
+
+.middlediv{
+	float: right;
+	background: grey;
+	margin-top: 0px;
+
+
+}
+
+}
+
+
+}
+@media(min-width:768px and max-width: 991px){
+	.outerdiv{
+	border: 2px solid green;
+	padding: 2px;
+	margin: 2px;
+width: 40%;
+float: left;
+background-color: pink;
+}
+
+
+.middlediv{
+	float: right;
+	background: grey;
+	margin-top: 0px;
+
+
+}
+.bottomdiv{
+	margin: 5px;
+	border:2px;
+	padding: 2px;
+	<!--float: left-->;
+}
+
+#box3{width:90%;}  <!-- ID selector for 2nd scenario -->
+
+}
+
+@media(max-width: 767px){
+	.outerdiv{
+	border: 2px solid green;
+	padding: 2px;
+	margin: 2px;
+width: 90%;
+float: left;
+background-color: pink;
+}
+
+.middlediv{
+	float: right;
+	background: grey;
+	margin-top: 0px;
+
+
+}
+.bottomdiv{
+	margin: 5px;
+	border:2px;
+	padding: 2px;
+	<!--float: left-->;
+}
+}

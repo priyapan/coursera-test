@@ -1,0 +1,76 @@
+h1{
+	color: red;
+	text-align: center;
+}
+
+
+@media(min-width:992px){
+	.outerdiv{
+	border: 2px solid green;
+	padding: 2px;
+	margin: 2px;
+width: 30%;
+float: left;
+background-color: pink;
+}
+
+.middlediv{
+	float: right;
+	background: grey;
+	margin-top: 0px;
+}
+.box3{width:30%;
+	border: 2px solid green;
+	padding: 2px;
+	margin: 2px;
+float: left;
+background-color: pink;}
+}
+@media(min-width: 768px and max-width: 991px){
+	.outerdiv{
+	border: 2px solid green;
+	padding: 2px;
+	margin: 2px;
+width:48%;
+float: left;
+background-color: pink;
+}
+
+
+.middlediv{
+	float: right;
+	background: grey;
+	margin-top: 0px;
+}
+
+.box3{width:90%;
+	border: 2px solid green;
+	padding: 2px;
+	margin: 2px;
+float: left;
+background-color: pink;}
+
+}
+
+@media(max-width: 767px){
+	.outerdiv{
+	border: 2px solid green;
+	padding: 2px;
+	margin: 2px;
+width: 90%;
+float: left;
+background-color: pink;
+}
+
+.middlediv{
+	float: right;
+	background: grey;
+	margin-top: 0px;
+}
+.box3{width:90%;
+	border: 2px solid green;
+	padding: 2px;
+	margin: 2px;
+float: left;
+background-color: pink;}
+}
